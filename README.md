@@ -8,4 +8,4 @@ Unfortunately, due to a bit of misinterpretation on my part, I couldn't be part 
 ### What I did
 My contributions are in the WordCampNYC.html, styles(1).css, and responsive.js files. The code that I wrote in the html and css files are wrapped in comments beginning with 'F.S.' The 'responsive.js' file is code that a friend shared with me which I modified in order to get the page to be more responsive.
 
-The styles work for screen widths of about 770px and up.
+The styles work for screen widths of about 770px and up on Google Chrome (at least v68), Mozilla Firefox (at least v61), Microsoft Edge (at least v42), and Internet Explorer 11.

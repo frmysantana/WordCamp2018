@@ -3407,7 +3407,7 @@ p > object:only-child {
 		width: 100%;
 		height: 100%;
 		z-index: -1;
-		background-image: url('https://github.com/frmysantana/WordCamp2018/blob/master/WordCampNYC_files/wordcamp-times-square.jpg');
+		background-image: url('./WordCampNYC_files/wordcamp-times-square.jpg');
 		background-size: cover;
 		filter: blur(5px);
 	}

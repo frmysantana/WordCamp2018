@@ -3407,7 +3407,7 @@ p > object:only-child {
 		width: 100%;
 		height: 100%;
 		z-index: -1;
-		background-image: url('./WordCampNYC_files/wordcamp-times-square.jpg');
+		background-image: url('https://www.nycgo.com/images/venues/152/timessquare_marleywhite_79582__x_large.jpg');
 		background-size: cover;
 		filter: blur(5px);
 	}

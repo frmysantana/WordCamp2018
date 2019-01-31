@@ -1552,7 +1552,7 @@ body {
 	display: flex; 
 	justify-content: space-between; 
 	background-color: black; 
-	height: 4.6875rem;
+	height: auto;
 }
 
 #center-logo {
@@ -1566,21 +1566,12 @@ body {
 	filter: drop-shadow(0px 4px 13px white);
 }
 
-#masthead .top-banner--left {
-	font-size: 1.875rem;
+#masthead .top-banner--left, .top-banner--right {
+	font-size: 4vmin;
 	width: 49%; 
 	color: white; 
-	padding-left: 2.813rem; 
-	padding-top: 1.875rem;;
-}
-
-.top-banner--right {
-	font-size: 1.875rem;
-	width: 49%; 
-	color: white; 
-	float: right; 
-	padding-top: 1.875rem; 
-	padding-left: 18.75rem;
+	text-align: center;
+	padding-top: 4vmin;
 }
 
 .site-header {
@@ -3517,8 +3508,7 @@ p > object:only-child {
 
 	.navigation-top .wrap {
 		max-width: none;
-		/* The font size is 14px here and we need 50px padding in ems */
-		padding: 0.75em 3.4166666666667em;
+		padding: 0.75em 1vw;
 	}
 
 	.navigation-top nav {
@@ -3542,7 +3532,7 @@ p > object:only-child {
 	/* Main Navigation */
 
 	#top-menu {
-		margin: 0 6rem;
+		text-align: center;
 	}
 
 	.js .menu-toggle,
@@ -3572,7 +3562,7 @@ p > object:only-child {
 	}
 
 	.main-navigation li {
-		margin: 0 1rem; /* F.S. - spread out the navigation items*/
+		margin: 0 1vw; /* F.S. - spread out the navigation items*/
 		border: 0;
 		display: inline-block;
 	}
@@ -4209,23 +4199,26 @@ p > object:only-child {
 }
 
 /* F.S. - styles for < 48em */
-@media screen and (max-width: 47.9em) {
+@media screen and (max-width: 48em) {
 	html {
 		font-size: 25px;
 	}
 	
 	#masthead .top-banner--left, #masthead .top-banner--right {
-		font-size: 1.875rem;
+		font-size: 4vmin;
 		width: 50%;
 		color: white;
 		text-align: center;
-		padding-top: 1.875rem;
+		padding-top: 4min;
 		padding-left: 0;
 	}
 
+	#center-logo {
+		width: 75vw;
+	}
+
 	.site-branding {
-		/* margin-bottom: 4.5625rem !important; */
-		height: 27rem;
+		height: 50vh;
 		z-index: 0;
 		position: relative;
 	}
